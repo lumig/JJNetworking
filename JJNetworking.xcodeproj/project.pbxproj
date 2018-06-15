@@ -15,14 +15,10 @@
 		61822CA420AEA98B00997D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CA320AEA98B00997D69 /* main.m */; };
 		61822CAE20AEA98B00997D69 /* JJNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CAD20AEA98B00997D69 /* JJNetworkingTests.m */; };
 		61822CB920AEA98C00997D69 /* JJNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CB820AEA98C00997D69 /* JJNetworkingUITests.m */; };
-		61822CEB20AEAB6E00997D69 /* JJBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CDE20AEAB6E00997D69 /* JJBaseAPIManager.m */; };
-		61822CEC20AEAB6E00997D69 /* JJNetworkingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CE120AEAB6E00997D69 /* JJNetworkingCache.m */; };
-		61822CEE20AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CE620AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m */; };
-		61822CEF20AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CE920AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m */; };
-		61822CF220AEABBB00997D69 /* NSString+JJ_Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CF120AEABBB00997D69 /* NSString+JJ_Networking.m */; };
 		61ED9D0920D3B5C700A1672C /* CUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED9D0720D3B5C700A1672C /* CUserDefault.m */; };
 		61ED9D0C20D3B60700A1672C /* CUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED9D0A20D3B60600A1672C /* CUserInfoModel.m */; };
 		61ED9D0F20D3B63B00A1672C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED9D0E20D3B63B00A1672C /* BaseModel.m */; };
+		61ED9D1220D3C1C700A1672C /* NSDictionary+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED9D1120D3C1C700A1672C /* NSDictionary+Extra.m */; };
 		929233B1EFB56C177CBEA34B /* libPods-JJNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB6B3EA58CF820F98CB60D /* libPods-JJNetworking.a */; };
 /* End PBXBuildFile section */
 
@@ -62,23 +58,15 @@
 		61822CB420AEA98C00997D69 /* JJNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61822CB820AEA98C00997D69 /* JJNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNetworkingUITests.m; sourceTree = "<group>"; };
 		61822CBA20AEA98C00997D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61822CDD20AEAB6E00997D69 /* JJBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJBaseAPIManager.h; sourceTree = "<group>"; };
-		61822CDE20AEAB6E00997D69 /* JJBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJBaseAPIManager.m; sourceTree = "<group>"; };
-		61822CE020AEAB6E00997D69 /* JJNetworkingCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNetworkingCache.h; sourceTree = "<group>"; };
-		61822CE120AEAB6E00997D69 /* JJNetworkingCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNetworkingCache.m; sourceTree = "<group>"; };
-		61822CE520AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionDataTask+JJ_Networking.h"; sourceTree = "<group>"; };
-		61822CE620AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionDataTask+JJ_Networking.m"; sourceTree = "<group>"; };
-		61822CE820AEAB6E00997D69 /* JJ_NetworkingBaseConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJ_NetworkingBaseConfig.h; sourceTree = "<group>"; };
-		61822CE920AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJ_NetworkingBaseConfig.m; sourceTree = "<group>"; };
 		61822CEA20AEAB6E00997D69 /* JJNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNetworking.h; sourceTree = "<group>"; };
-		61822CF020AEABBB00997D69 /* NSString+JJ_Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JJ_Networking.h"; sourceTree = "<group>"; };
-		61822CF120AEABBB00997D69 /* NSString+JJ_Networking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJ_Networking.m"; sourceTree = "<group>"; };
 		61ED9D0720D3B5C700A1672C /* CUserDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUserDefault.m; sourceTree = "<group>"; };
 		61ED9D0820D3B5C700A1672C /* CUserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUserDefault.h; sourceTree = "<group>"; };
 		61ED9D0A20D3B60600A1672C /* CUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUserInfoModel.m; sourceTree = "<group>"; };
 		61ED9D0B20D3B60700A1672C /* CUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUserInfoModel.h; sourceTree = "<group>"; };
 		61ED9D0D20D3B63B00A1672C /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		61ED9D0E20D3B63B00A1672C /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		61ED9D1020D3C1C700A1672C /* NSDictionary+Extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extra.h"; sourceTree = "<group>"; };
+		61ED9D1120D3C1C700A1672C /* NSDictionary+Extra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extra.m"; sourceTree = "<group>"; };
 		B2BB6B3EA58CF820F98CB60D /* libPods-JJNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -183,51 +171,11 @@
 		61822CDB20AEAB6E00997D69 /* JJNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				61822CDC20AEAB6E00997D69 /* BaseNetworking */,
-				61822CDF20AEAB6E00997D69 /* Cache */,
-				61822CE220AEAB6E00997D69 /* Categories */,
-				61822CE720AEAB6E00997D69 /* Configs */,
 				61822CEA20AEAB6E00997D69 /* JJNetworking.h */,
+				61ED9D1020D3C1C700A1672C /* NSDictionary+Extra.h */,
+				61ED9D1120D3C1C700A1672C /* NSDictionary+Extra.m */,
 			);
 			path = JJNetworking;
-			sourceTree = "<group>";
-		};
-		61822CDC20AEAB6E00997D69 /* BaseNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				61822CDD20AEAB6E00997D69 /* JJBaseAPIManager.h */,
-				61822CDE20AEAB6E00997D69 /* JJBaseAPIManager.m */,
-			);
-			path = BaseNetworking;
-			sourceTree = "<group>";
-		};
-		61822CDF20AEAB6E00997D69 /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				61822CE020AEAB6E00997D69 /* JJNetworkingCache.h */,
-				61822CE120AEAB6E00997D69 /* JJNetworkingCache.m */,
-			);
-			path = Cache;
-			sourceTree = "<group>";
-		};
-		61822CE220AEAB6E00997D69 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				61822CE520AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.h */,
-				61822CE620AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m */,
-				61822CF020AEABBB00997D69 /* NSString+JJ_Networking.h */,
-				61822CF120AEABBB00997D69 /* NSString+JJ_Networking.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		61822CE720AEAB6E00997D69 /* Configs */ = {
-			isa = PBXGroup;
-			children = (
-				61822CE820AEAB6E00997D69 /* JJ_NetworkingBaseConfig.h */,
-				61822CE920AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m */,
-			);
-			path = Configs;
 			sourceTree = "<group>";
 		};
 		81E7A37008FEC112E7FFC426 /* Frameworks */ = {
@@ -394,15 +342,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				61ED9D0C20D3B60700A1672C /* CUserInfoModel.m in Sources */,
-				61822CEF20AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m in Sources */,
 				61ED9D0920D3B5C700A1672C /* CUserDefault.m in Sources */,
 				61ED9D0F20D3B63B00A1672C /* BaseModel.m in Sources */,
-				61822CF220AEABBB00997D69 /* NSString+JJ_Networking.m in Sources */,
 				61822C9920AEA98B00997D69 /* ViewController.m in Sources */,
-				61822CEB20AEAB6E00997D69 /* JJBaseAPIManager.m in Sources */,
+				61ED9D1220D3C1C700A1672C /* NSDictionary+Extra.m in Sources */,
 				61822CA420AEA98B00997D69 /* main.m in Sources */,
-				61822CEC20AEAB6E00997D69 /* JJNetworkingCache.m in Sources */,
-				61822CEE20AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m in Sources */,
 				61822C9620AEA98B00997D69 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
