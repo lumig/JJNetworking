@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   # s.exclude_files = "Classes/Exclude"
   s.dependency 'AFNetworking'
-  # s.dependency 'YYCache'
+  s.dependency 'RealReachability'
+  s.dependency 'YYKit'
+
 
 end

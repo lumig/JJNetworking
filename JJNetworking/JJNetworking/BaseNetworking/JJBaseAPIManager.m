@@ -7,16 +7,17 @@
 //
 
 #import "JJBaseAPIManager.h"
-#import <AFNetworkActivityIndicatorManager.h>
-#import <NSObject+YYModel.h>
-#import <AFHTTPSessionManager.h>
-#import <AdSupport/AdSupport.h>
+#import "AFNetworkActivityIndicatorManager.h"
+#import "NSObject+YYModel.h"
+#import "AFHTTPSessionManager.h"
+#import "AdSupport/AdSupport.h"
 
 #import "JJ_NetworkingBaseConfig.h"
 #import "NSString+JJ_Networking.h"
 #import "NSURLSessionDataTask+JJ_Networking.h"
 #import "JJNetworkingCache.h"
-
+#import "BaseModel.h"
+#import "CUserDefault.h"
 @interface JJBaseAPIManager ()
 
 @property (nonatomic, strong) AFHTTPSessionManager *manager;

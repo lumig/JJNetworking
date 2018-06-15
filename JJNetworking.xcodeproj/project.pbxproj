@@ -20,6 +20,9 @@
 		61822CEE20AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CE620AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m */; };
 		61822CEF20AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CE920AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m */; };
 		61822CF220AEABBB00997D69 /* NSString+JJ_Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CF120AEABBB00997D69 /* NSString+JJ_Networking.m */; };
+		61ED9D0920D3B5C700A1672C /* CUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED9D0720D3B5C700A1672C /* CUserDefault.m */; };
+		61ED9D0C20D3B60700A1672C /* CUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED9D0A20D3B60600A1672C /* CUserInfoModel.m */; };
+		61ED9D0F20D3B63B00A1672C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED9D0E20D3B63B00A1672C /* BaseModel.m */; };
 		929233B1EFB56C177CBEA34B /* libPods-JJNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB6B3EA58CF820F98CB60D /* libPods-JJNetworking.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +73,12 @@
 		61822CEA20AEAB6E00997D69 /* JJNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNetworking.h; sourceTree = "<group>"; };
 		61822CF020AEABBB00997D69 /* NSString+JJ_Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JJ_Networking.h"; sourceTree = "<group>"; };
 		61822CF120AEABBB00997D69 /* NSString+JJ_Networking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJ_Networking.m"; sourceTree = "<group>"; };
+		61ED9D0720D3B5C700A1672C /* CUserDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUserDefault.m; sourceTree = "<group>"; };
+		61ED9D0820D3B5C700A1672C /* CUserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUserDefault.h; sourceTree = "<group>"; };
+		61ED9D0A20D3B60600A1672C /* CUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUserInfoModel.m; sourceTree = "<group>"; };
+		61ED9D0B20D3B60700A1672C /* CUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUserInfoModel.h; sourceTree = "<group>"; };
+		61ED9D0D20D3B63B00A1672C /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		61ED9D0E20D3B63B00A1672C /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		B2BB6B3EA58CF820F98CB60D /* libPods-JJNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,6 +147,12 @@
 				61822C9520AEA98B00997D69 /* AppDelegate.m */,
 				61822C9720AEA98B00997D69 /* ViewController.h */,
 				61822C9820AEA98B00997D69 /* ViewController.m */,
+				61ED9D0820D3B5C700A1672C /* CUserDefault.h */,
+				61ED9D0720D3B5C700A1672C /* CUserDefault.m */,
+				61ED9D0B20D3B60700A1672C /* CUserInfoModel.h */,
+				61ED9D0A20D3B60600A1672C /* CUserInfoModel.m */,
+				61ED9D0D20D3B63B00A1672C /* BaseModel.h */,
+				61ED9D0E20D3B63B00A1672C /* BaseModel.m */,
 				61822C9A20AEA98B00997D69 /* Main.storyboard */,
 				61822C9D20AEA98B00997D69 /* Assets.xcassets */,
 				61822C9F20AEA98B00997D69 /* LaunchScreen.storyboard */,
@@ -378,7 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61ED9D0C20D3B60700A1672C /* CUserInfoModel.m in Sources */,
 				61822CEF20AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m in Sources */,
+				61ED9D0920D3B5C700A1672C /* CUserDefault.m in Sources */,
+				61ED9D0F20D3B63B00A1672C /* BaseModel.m in Sources */,
 				61822CF220AEABBB00997D69 /* NSString+JJ_Networking.m in Sources */,
 				61822C9920AEA98B00997D69 /* ViewController.m in Sources */,
 				61822CEB20AEAB6E00997D69 /* JJBaseAPIManager.m in Sources */,

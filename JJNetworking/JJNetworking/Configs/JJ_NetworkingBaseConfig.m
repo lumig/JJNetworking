@@ -7,11 +7,12 @@
 //
 
 #import "JJ_NetworkingBaseConfig.h"
-
+#import "RealReachability.h"
+#import <UIKit/UIKit.h>
 #ifdef DEBUG
 NSString *const kBaseConfig_JJHostUrl = @"http://10.138.60.143:10000";
 #else
-NSString *const kBaseConfig_JJHostUrl = @"http://api.creditcat.cn"
+NSString *const kBaseConfig_JJHostUrl = @"http://api.creditcat.cn";
 #endif
 
 NSString *const kBaseConfig_JJHostApi = @"/app";
