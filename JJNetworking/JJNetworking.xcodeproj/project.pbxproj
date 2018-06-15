@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61822C9620AEA98B00997D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822C9520AEA98B00997D69 /* AppDelegate.m */; };
+		61822C9920AEA98B00997D69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822C9820AEA98B00997D69 /* ViewController.m */; };
+		61822C9C20AEA98B00997D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61822C9A20AEA98B00997D69 /* Main.storyboard */; };
+		61822C9E20AEA98B00997D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61822C9D20AEA98B00997D69 /* Assets.xcassets */; };
+		61822CA120AEA98B00997D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61822C9F20AEA98B00997D69 /* LaunchScreen.storyboard */; };
+		61822CA420AEA98B00997D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CA320AEA98B00997D69 /* main.m */; };
+		61822CAE20AEA98B00997D69 /* JJNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CAD20AEA98B00997D69 /* JJNetworkingTests.m */; };
+		61822CB920AEA98C00997D69 /* JJNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CB820AEA98C00997D69 /* JJNetworkingUITests.m */; };
+		61822CEB20AEAB6E00997D69 /* JJBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CDE20AEAB6E00997D69 /* JJBaseAPIManager.m */; };
+		61822CEC20AEAB6E00997D69 /* JJNetworkingCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CE120AEAB6E00997D69 /* JJNetworkingCache.m */; };
+		61822CEE20AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CE620AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m */; };
+		61822CEF20AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CE920AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m */; };
+		61822CF220AEABBB00997D69 /* NSString+JJ_Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 61822CF120AEABBB00997D69 /* NSString+JJ_Networking.m */; };
+		929233B1EFB56C177CBEA34B /* libPods-JJNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB6B3EA58CF820F98CB60D /* libPods-JJNetworking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61822CAA20AEA98B00997D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61822C8920AEA98B00997D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61822C9020AEA98B00997D69;
+			remoteInfo = JJNetworking;
+		};
+		61822CB520AEA98C00997D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61822C8920AEA98B00997D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61822C9020AEA98B00997D69;
+			remoteInfo = JJNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31A2241DFB413B92B85CEAE7 /* Pods-JJNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJNetworking/Pods-JJNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		3271B0698714DA8EEA1AE98F /* Pods-JJNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJNetworking/Pods-JJNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		61822C9120AEA98B00997D69 /* JJNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61822C9420AEA98B00997D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61822C9520AEA98B00997D69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61822C9720AEA98B00997D69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61822C9820AEA98B00997D69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61822C9B20AEA98B00997D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61822C9D20AEA98B00997D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61822CA020AEA98B00997D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61822CA220AEA98B00997D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61822CA320AEA98B00997D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61822CA920AEA98B00997D69 /* JJNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61822CAD20AEA98B00997D69 /* JJNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNetworkingTests.m; sourceTree = "<group>"; };
+		61822CAF20AEA98C00997D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61822CB420AEA98C00997D69 /* JJNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61822CB820AEA98C00997D69 /* JJNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJNetworkingUITests.m; sourceTree = "<group>"; };
+		61822CBA20AEA98C00997D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61822CDD20AEAB6E00997D69 /* JJBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJBaseAPIManager.h; sourceTree = "<group>"; };
+		61822CDE20AEAB6E00997D69 /* JJBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJBaseAPIManager.m; sourceTree = "<group>"; };
+		61822CE020AEAB6E00997D69 /* JJNetworkingCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNetworkingCache.h; sourceTree = "<group>"; };
+		61822CE120AEAB6E00997D69 /* JJNetworkingCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNetworkingCache.m; sourceTree = "<group>"; };
+		61822CE520AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionDataTask+JJ_Networking.h"; sourceTree = "<group>"; };
+		61822CE620AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionDataTask+JJ_Networking.m"; sourceTree = "<group>"; };
+		61822CE820AEAB6E00997D69 /* JJ_NetworkingBaseConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJ_NetworkingBaseConfig.h; sourceTree = "<group>"; };
+		61822CE920AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJ_NetworkingBaseConfig.m; sourceTree = "<group>"; };
+		61822CEA20AEAB6E00997D69 /* JJNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNetworking.h; sourceTree = "<group>"; };
+		61822CF020AEABBB00997D69 /* NSString+JJ_Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JJ_Networking.h"; sourceTree = "<group>"; };
+		61822CF120AEABBB00997D69 /* NSString+JJ_Networking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJ_Networking.m"; sourceTree = "<group>"; };
+		B2BB6B3EA58CF820F98CB60D /* libPods-JJNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61822C8E20AEA98B00997D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929233B1EFB56C177CBEA34B /* libPods-JJNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61822CA620AEA98B00997D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61822CB120AEA98C00997D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DAD5335E3F0C0668796A71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A2241DFB413B92B85CEAE7 /* Pods-JJNetworking.debug.xcconfig */,
+				3271B0698714DA8EEA1AE98F /* Pods-JJNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61822C8820AEA98B00997D69 = {
+			isa = PBXGroup;
+			children = (
+				61822C9320AEA98B00997D69 /* JJNetworking */,
+				61822CAC20AEA98B00997D69 /* JJNetworkingTests */,
+				61822CB720AEA98C00997D69 /* JJNetworkingUITests */,
+				61822C9220AEA98B00997D69 /* Products */,
+				22DAD5335E3F0C0668796A71 /* Pods */,
+				81E7A37008FEC112E7FFC426 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61822C9220AEA98B00997D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61822C9120AEA98B00997D69 /* JJNetworking.app */,
+				61822CA920AEA98B00997D69 /* JJNetworkingTests.xctest */,
+				61822CB420AEA98C00997D69 /* JJNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61822C9320AEA98B00997D69 /* JJNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				61822CDB20AEAB6E00997D69 /* JJNetworking */,
+				61822C9420AEA98B00997D69 /* AppDelegate.h */,
+				61822C9520AEA98B00997D69 /* AppDelegate.m */,
+				61822C9720AEA98B00997D69 /* ViewController.h */,
+				61822C9820AEA98B00997D69 /* ViewController.m */,
+				61822C9A20AEA98B00997D69 /* Main.storyboard */,
+				61822C9D20AEA98B00997D69 /* Assets.xcassets */,
+				61822C9F20AEA98B00997D69 /* LaunchScreen.storyboard */,
+				61822CA220AEA98B00997D69 /* Info.plist */,
+				61822CA320AEA98B00997D69 /* main.m */,
+			);
+			path = JJNetworking;
+			sourceTree = "<group>";
+		};
+		61822CAC20AEA98B00997D69 /* JJNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				61822CAD20AEA98B00997D69 /* JJNetworkingTests.m */,
+				61822CAF20AEA98C00997D69 /* Info.plist */,
+			);
+			path = JJNetworkingTests;
+			sourceTree = "<group>";
+		};
+		61822CB720AEA98C00997D69 /* JJNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61822CB820AEA98C00997D69 /* JJNetworkingUITests.m */,
+				61822CBA20AEA98C00997D69 /* Info.plist */,
+			);
+			path = JJNetworkingUITests;
+			sourceTree = "<group>";
+		};
+		61822CDB20AEAB6E00997D69 /* JJNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				61822CDC20AEAB6E00997D69 /* BaseNetworking */,
+				61822CDF20AEAB6E00997D69 /* Cache */,
+				61822CE220AEAB6E00997D69 /* Categories */,
+				61822CE720AEAB6E00997D69 /* Configs */,
+				61822CEA20AEAB6E00997D69 /* JJNetworking.h */,
+			);
+			path = JJNetworking;
+			sourceTree = "<group>";
+		};
+		61822CDC20AEAB6E00997D69 /* BaseNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				61822CDD20AEAB6E00997D69 /* JJBaseAPIManager.h */,
+				61822CDE20AEAB6E00997D69 /* JJBaseAPIManager.m */,
+			);
+			path = BaseNetworking;
+			sourceTree = "<group>";
+		};
+		61822CDF20AEAB6E00997D69 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				61822CE020AEAB6E00997D69 /* JJNetworkingCache.h */,
+				61822CE120AEAB6E00997D69 /* JJNetworkingCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		61822CE220AEAB6E00997D69 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				61822CE520AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.h */,
+				61822CE620AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m */,
+				61822CF020AEABBB00997D69 /* NSString+JJ_Networking.h */,
+				61822CF120AEABBB00997D69 /* NSString+JJ_Networking.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		61822CE720AEAB6E00997D69 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				61822CE820AEAB6E00997D69 /* JJ_NetworkingBaseConfig.h */,
+				61822CE920AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		81E7A37008FEC112E7FFC426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB6B3EA58CF820F98CB60D /* libPods-JJNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61822C9020AEA98B00997D69 /* JJNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61822CBD20AEA98C00997D69 /* Build configuration list for PBXNativeTarget "JJNetworking" */;
+			buildPhases = (
+				A622C249586B365359985D3D /* [CP] Check Pods Manifest.lock */,
+				61822C8D20AEA98B00997D69 /* Sources */,
+				61822C8E20AEA98B00997D69 /* Frameworks */,
+				61822C8F20AEA98B00997D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJNetworking;
+			productName = JJNetworking;
+			productReference = 61822C9120AEA98B00997D69 /* JJNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61822CA820AEA98B00997D69 /* JJNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61822CC020AEA98C00997D69 /* Build configuration list for PBXNativeTarget "JJNetworkingTests" */;
+			buildPhases = (
+				61822CA520AEA98B00997D69 /* Sources */,
+				61822CA620AEA98B00997D69 /* Frameworks */,
+				61822CA720AEA98B00997D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61822CAB20AEA98B00997D69 /* PBXTargetDependency */,
+			);
+			name = JJNetworkingTests;
+			productName = JJNetworkingTests;
+			productReference = 61822CA920AEA98B00997D69 /* JJNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61822CB320AEA98C00997D69 /* JJNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61822CC320AEA98C00997D69 /* Build configuration list for PBXNativeTarget "JJNetworkingUITests" */;
+			buildPhases = (
+				61822CB020AEA98C00997D69 /* Sources */,
+				61822CB120AEA98C00997D69 /* Frameworks */,
+				61822CB220AEA98C00997D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61822CB620AEA98C00997D69 /* PBXTargetDependency */,
+			);
+			name = JJNetworkingUITests;
+			productName = JJNetworkingUITests;
+			productReference = 61822CB420AEA98C00997D69 /* JJNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61822C8920AEA98B00997D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = luming;
+				TargetAttributes = {
+					61822C9020AEA98B00997D69 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					61822CA820AEA98B00997D69 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61822C9020AEA98B00997D69;
+					};
+					61822CB320AEA98C00997D69 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61822C9020AEA98B00997D69;
+					};
+				};
+			};
+			buildConfigurationList = 61822C8C20AEA98B00997D69 /* Build configuration list for PBXProject "JJNetworking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61822C8820AEA98B00997D69;
+			productRefGroup = 61822C9220AEA98B00997D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61822C9020AEA98B00997D69 /* JJNetworking */,
+				61822CA820AEA98B00997D69 /* JJNetworkingTests */,
+				61822CB320AEA98C00997D69 /* JJNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61822C8F20AEA98B00997D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61822CA120AEA98B00997D69 /* LaunchScreen.storyboard in Resources */,
+				61822C9E20AEA98B00997D69 /* Assets.xcassets in Resources */,
+				61822C9C20AEA98B00997D69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61822CA720AEA98B00997D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61822CB220AEA98C00997D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A622C249586B365359985D3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61822C8D20AEA98B00997D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61822CEF20AEAB6E00997D69 /* JJ_NetworkingBaseConfig.m in Sources */,
+				61822CF220AEABBB00997D69 /* NSString+JJ_Networking.m in Sources */,
+				61822C9920AEA98B00997D69 /* ViewController.m in Sources */,
+				61822CEB20AEAB6E00997D69 /* JJBaseAPIManager.m in Sources */,
+				61822CA420AEA98B00997D69 /* main.m in Sources */,
+				61822CEC20AEAB6E00997D69 /* JJNetworkingCache.m in Sources */,
+				61822CEE20AEAB6E00997D69 /* NSURLSessionDataTask+JJ_Networking.m in Sources */,
+				61822C9620AEA98B00997D69 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61822CA520AEA98B00997D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61822CAE20AEA98B00997D69 /* JJNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61822CB020AEA98C00997D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61822CB920AEA98C00997D69 /* JJNetworkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61822CAB20AEA98B00997D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61822C9020AEA98B00997D69 /* JJNetworking */;
+			targetProxy = 61822CAA20AEA98B00997D69 /* PBXContainerItemProxy */;
+		};
+		61822CB620AEA98C00997D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61822C9020AEA98B00997D69 /* JJNetworking */;
+			targetProxy = 61822CB520AEA98C00997D69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61822C9A20AEA98B00997D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61822C9B20AEA98B00997D69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61822C9F20AEA98B00997D69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61822CA020AEA98B00997D69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61822CBB20AEA98C00997D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61822CBC20AEA98C00997D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61822CBE20AEA98C00997D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A2241DFB413B92B85CEAE7 /* Pods-JJNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = JJNetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61822CBF20AEA98C00997D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3271B0698714DA8EEA1AE98F /* Pods-JJNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YWEH5GVC2C;
+				INFOPLIST_FILE = JJNetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61822CC120AEA98C00997D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJNetworking.app/JJNetworking";
+			};
+			name = Debug;
+		};
+		61822CC220AEA98C00997D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJNetworking.app/JJNetworking";
+			};
+			name = Release;
+		};
+		61822CC420AEA98C00997D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJNetworking;
+			};
+			name = Debug;
+		};
+		61822CC520AEA98C00997D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = luming.JJNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61822C8C20AEA98B00997D69 /* Build configuration list for PBXProject "JJNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61822CBB20AEA98C00997D69 /* Debug */,
+				61822CBC20AEA98C00997D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61822CBD20AEA98C00997D69 /* Build configuration list for PBXNativeTarget "JJNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61822CBE20AEA98C00997D69 /* Debug */,
+				61822CBF20AEA98C00997D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61822CC020AEA98C00997D69 /* Build configuration list for PBXNativeTarget "JJNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61822CC120AEA98C00997D69 /* Debug */,
+				61822CC220AEA98C00997D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61822CC320AEA98C00997D69 /* Build configuration list for PBXNativeTarget "JJNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61822CC420AEA98C00997D69 /* Debug */,
+				61822CC520AEA98C00997D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61822C8920AEA98B00997D69 /* Project object */;
+}
